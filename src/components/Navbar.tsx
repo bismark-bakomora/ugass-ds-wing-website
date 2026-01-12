@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import ugassLogo from '../assets/ugass-logo.jpg';
+
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -23,12 +25,14 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-ugass-green rounded-lg flex items-center justify-center text-white font-bold text-xl">
-              U
-            </div>
+            <img
+              src={ugassLogo}
+              alt="UGASS Logo"
+              className="w-10 h-10 rounded-lg object-contain"
+            />
             <div>
               <h1 className="text-sm font-bold leading-tight text-ugass-green uppercase">UGASS</h1>
-              <p className="text-[10px] text-slate-500 font-medium tracking-widest uppercase">Data Science Wing</p>
+              <p className="text-[10px] text-slate-500 font-medium tracking-widest uppercase">Data Science Club</p>
             </div>
           </Link>
 
