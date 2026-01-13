@@ -13,7 +13,7 @@ const HomePage: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div className="text-left">
               <span className="inline-block bg-white/10 text-ugass-gold text-xs font-bold tracking-widest uppercase py-2 px-4 rounded-full mb-6">
-                Official Data Science Wing of UGASS
+                Official Data Science Club of UGASS
               </span>
               <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-[1.1] mb-8">
                 Empowering Data <br/>Science Education & <br/><span className="text-ugass-gold italic">Research at UGASS</span>
@@ -46,7 +46,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <div className="bg-slate-800 rounded-2xl h-40 flex flex-col justify-end p-5">
                     <div className="text-blue-400 font-black text-3xl">10+</div>
-                    <div className="text-slate-400 text-sm">Monthly Workshops</div>
+                    <div className="text-slate-400 text-sm">Workshops</div>
                   </div>
                   <div className="bg-slate-800 rounded-2xl h-40 col-span-2 flex items-center justify-between p-6">
                     <div>

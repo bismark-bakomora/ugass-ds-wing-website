@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
       </div>
 
       <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-slate-800 text-center text-xs text-slate-500">
-        &copy; {new Date().getFullYear()} UGASS Data Science Wing. All rights reserved. Made with passion for the Data Science community.
+        &copy; {new Date().getFullYear()} UGASS Data Science Club. All rights reserved. Made with passion for the Data Science community.
       </div>
     </footer>
   );
