@@ -1,5 +1,5 @@
 import React from 'react';
-import { Users, Linkedin, Mail } from 'lucide-react';
+import { Linkedin, Mail } from 'lucide-react';
 import { TEAM_MEMBERS } from '../data/constants';
 
 const TeamPage: React.FC = () => {
