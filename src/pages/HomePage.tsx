@@ -121,7 +121,7 @@ const HomePage: React.FC = () => {
       <section className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-4">Why Join the Wing?</h2>
+            <h2 className="text-3xl font-bold mb-4">Why Join the Club?</h2>
             <div className="w-20 h-1 bg-ugass-gold mx-auto rounded-full"></div>
           </div>
           <div className="grid md:grid-cols-3 gap-8">

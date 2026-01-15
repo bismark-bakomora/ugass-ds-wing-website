@@ -43,7 +43,7 @@ const JoinUsPage: React.FC = () => {
           <div className="w-20 h-20 bg-ugass-green rounded-full mx-auto flex items-center justify-center text-white mb-6">
             <CheckCircle2 size={40} />
           </div>
-          <h2 className="text-3xl font-bold mb-4">Welcome to the Wing!</h2>
+          <h2 className="text-3xl font-bold mb-4">Welcome to the Club!</h2>
           <p className="text-slate-500 mb-8">
             Your application has been received. Please check your email for the next steps and DataCamp access instructions.
           </p>
