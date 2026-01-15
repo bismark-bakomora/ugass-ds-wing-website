@@ -43,6 +43,13 @@ export const TEAM_MEMBERS: TeamMember[] = [
     bio: 'Developing strategic collaborations with industry giants and academia.',
     linkedin: '#',
     initials: 'BB'
+  },
+  {
+    name: 'David Quarcoo',
+    role: 'Project Coordinator',
+    bio: 'Coordinating data science projects and ensuring timely delivery of outcomes.',
+    linkedin: '#',
+    initials: 'DQ'
   }
 ];
 
