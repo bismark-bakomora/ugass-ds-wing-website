@@ -45,7 +45,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     email: 'isaac.jim@ug.edu.gh'
   },
   {
-    name: 'Bismark Bakomorra',
+    name: 'Bismark Bakomora',
     role: 'Partnerships Lead',
     bio: 'Developing strategic collaborations with industry giants and academia.',
     linkedin: 'https://www.linkedin.com/in/bismark-bakomora/',
