@@ -5,7 +5,9 @@ export interface TeamMember {
   role: string;
   bio: string;
   linkedin: string;
-  initials: string;
+  image?: string;
+  initials?: string;
+  email: string;
 }
 
 export interface ProgramItem {

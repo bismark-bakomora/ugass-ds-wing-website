@@ -1,5 +1,8 @@
 import { BookOpen, TrendingUp, Award } from 'lucide-react';
 import { TeamMember, Program, Event, Resource, Stat, Colors } from '../types';
+import jim from '../assets/team/jim.jpeg';
+import elvis from '../assets/team/elvis.jpeg';
+import bismark from '../assets/team/bismark.jpeg';
 
 export const COLORS: Colors = {
   primary: '#004d26',
@@ -13,43 +16,49 @@ export const TEAM_MEMBERS: TeamMember[] = [
     name: 'Wonder Bediako',
     role: 'Team Lead',
     bio: 'Passionate about building communities and leveraging data for impactful decision-making.',
-    linkedin: '#',
-    initials: 'WB'
+    linkedin: 'https://www.linkedin.com/in/wonder-bediako/',
+    initials: 'WB',
+    email: 'wonder.bediako@ug.edu.gh'
   },
   {
     name: 'Elvis Kwabena Asare Nkrumah',
     role: 'Technical Lead',
     bio: 'Expert in Python automation and Machine Learning frameworks.',
-    linkedin: '#',
-    initials: 'EK'
+    linkedin: 'https://www.linkedin.com/in/elviskankrumah/',
+    image: elvis,
+    email: 'elvis.asare@ug.edu.gh'
   },
   {
     name: 'Wisdom Nana-Abena Ogbonna',
     role: 'Outreach Lead',
     bio: 'Leading communication strategies and building external relationships.',
-    linkedin: '#',
-    initials: 'WN'
+    linkedin: 'https://www.linkedin.com/in/wnao/',
+    initials: 'WN',
+    email: 'wisdom.ogbonna@ug.edu.gh'
   },
   {
     name: 'Isaac Jim Awuah',
     role: 'Research Lead',
     bio: 'Focused on statistical inference and applying research to real-world scenarios.',
-    linkedin: '#',
-    initials: 'IJ'
+    linkedin: 'https://www.linkedin.com/in/isaac-jim-awuah/',
+    image: jim,
+    email: 'isaac.jim@ug.edu.gh'
   },
   {
     name: 'Bismark Bakomorra',
     role: 'Partnerships Lead',
     bio: 'Developing strategic collaborations with industry giants and academia.',
-    linkedin: '#',
-    initials: 'BB'
+    linkedin: 'https://www.linkedin.com/in/bismark-bakomora/',
+    image: bismark,
+    email: 'bismarkzebill@gmail.com'
   },
   {
-    name: 'David Quarcoo',
+    name: 'David Ampofo Quarcoo',
     role: 'Project Coordinator',
     bio: 'Coordinating data science projects and ensuring timely delivery of outcomes.',
-    linkedin: '#',
-    initials: 'DQ'
+    linkedin: 'https://www.linkedin.com/in/david-ampofo-quarcoo/',
+    initials: 'DQ',
+    email: 'david.quarcoo@ug.edu.gh'
   }
 ];
 
