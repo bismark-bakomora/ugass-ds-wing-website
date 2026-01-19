@@ -3,6 +3,7 @@ import { TeamMember, Program, Event, Resource, Stat, Colors } from '../types';
 import jim from '../assets/team/jim.jpeg';
 import elvis from '../assets/team/elvis.jpeg';
 import bismark from '../assets/team/bismark.jpeg';
+import wisdom from '../assets/team/wisdom.jpeg'
 
 export const COLORS: Colors = {
   primary: '#004d26',
@@ -33,8 +34,8 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: 'Outreach Lead',
     bio: 'Leading communication strategies and building external relationships.',
     linkedin: 'https://www.linkedin.com/in/wnao/',
-    initials: 'WN',
-    email: 'wisdom.ogbonna@ug.edu.gh'
+    image: wisdom,
+    email: 'wisdomnanaabenaogbonna@gmail.com'
   },
   {
     name: 'Isaac Jim Awuah',
