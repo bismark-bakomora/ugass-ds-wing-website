@@ -1,5 +1,5 @@
 import React, { useState, FormEvent, ChangeEvent } from 'react';
-import { BookOpen, Users, TrendingUp, Linkedin, Youtube, Github, CheckCircle2 } from 'lucide-react';
+import { BookOpen, Users, TrendingUp, Linkedin, CheckCircle2 } from 'lucide-react';
 
 interface FormData {
   firstName: string;

@@ -1,5 +1,5 @@
 import React, { useState, FormEvent, ChangeEvent } from 'react';
-import { Send, Mail, MapPin, Linkedin, Youtube, Github } from 'lucide-react';
+import { Send, Mail, MapPin, Linkedin } from 'lucide-react';
 
 interface ContactFormData {
   name: string;
