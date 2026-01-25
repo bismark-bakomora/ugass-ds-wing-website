@@ -151,6 +151,38 @@ const HomePage: React.FC = () => {
               </div>
             ))}
           </div>
+
+          {/* Telegram Community CTA */}
+
+          <div className="mt-16 flex justify-center">
+            <a
+              href="https://t.me/ugassdsc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-4 bg-white border border-slate-200 rounded-2xl px-8 py-5 shadow-sm hover:shadow-lg transition-all hover:-translate-y-1"
+            >
+              {/* Telegram Icon */}
+              <div className="w-14 h-14 rounded-xl bg-[#229ED9]/10 flex items-center justify-center group-hover:bg-[#229ED9]/20 transition">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 240 240"
+                  className="w-8 h-8 fill-[#229ED9]"
+                >
+                  <path d="M120 0C53.7 0 0 53.7 0 120s53.7 120 120 120 120-53.7 120-120S186.3 0 120 0zm58.6 82.2-18.9 88.9c-1.4 6.3-5.1 7.8-10.3 4.9l-28.5-21-13.7 13.2c-1.5 1.5-2.8 2.8-5.7 2.8l2-29.1 52.9-47.8c2.3-2-0.5-3.1-3.6-1.1l-65.4 41.2-28.2-8.8c-6.1-1.9-6.2-6.1 1.3-9l110.2-42.5c5.1-1.9 9.6 1.2 7.9 9.4z"/>
+                </svg>
+              </div>
+
+              {/* Text */}
+              <div className="text-left">
+                <div className="text-lg font-bold text-slate-800">
+                  Join our Telegram Channel
+                </div>
+                <div className="text-sm text-slate-500">
+                  Get updates, resources, events, and discussions in real time
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </section>
     </div>

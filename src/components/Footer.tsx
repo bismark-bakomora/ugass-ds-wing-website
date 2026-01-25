@@ -21,17 +21,26 @@ const Footer: React.FC = () => {
             Dedicated to bridging the gap between theory and practical data application.
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="hover:text-yellow-400 transition-colors">
+            <a href="https://www.linkedin.com/company/ugass-data-science-club" className="hover:text-yellow-400 transition-colors">
               <Linkedin size={20} />
             </a>
-            <a href="#" className="hover:text-yellow-400 transition-colors">
-              <Youtube size={20} />
-            </a>
-            <a href="#" className="hover:text-yellow-400 transition-colors">
-              <Github size={20} />
-            </a>
-            <a href="#" className="hover:text-yellow-400 transition-colors">
+            <a href="ugassdatascienceclub@gmail.com" className="hover:text-yellow-400 transition-colors">
               <Mail size={20} />
+            </a>
+            <a
+              href="https://t.me/ugassdsc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-yellow-400 transition-colors"
+              aria-label="Telegram"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 240 240"
+                className="w-5 h-5 fill-current"
+              >
+                <path d="M120 0C53.7 0 0 53.7 0 120s53.7 120 120 120 120-53.7 120-120S186.3 0 120 0zm58.6 82.2-18.9 88.9c-1.4 6.3-5.1 7.8-10.3 4.9l-28.5-21-13.7 13.2c-1.5 1.5-2.8 2.8-5.7 2.8l2-29.1 52.9-47.8c2.3-2-0.5-3.1-3.6-1.1l-65.4 41.2-28.2-8.8c-6.1-1.9-6.2-6.1 1.3-9l110.2-42.5c5.1-1.9 9.6 1.2 7.9 9.4z"/>
+              </svg>
             </a>
           </div>
         </div>

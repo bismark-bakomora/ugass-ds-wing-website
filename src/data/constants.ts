@@ -4,6 +4,8 @@ import jim from '../assets/team/jim.jpeg';
 import elvis from '../assets/team/elvis.jpeg';
 import bismark from '../assets/team/bismark.jpeg';
 import wisdom from '../assets/team/wisdom.jpeg'
+import wonder from '../assets/team/wonder.jpg';
+import david from '../assets/team/david.jpg';
 
 export const COLORS: Colors = {
   primary: '#004d26',
@@ -18,7 +20,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: 'Team Lead',
     bio: 'Passionate about building communities and leveraging data for impactful decision-making.',
     linkedin: 'https://www.linkedin.com/in/wonder-bediako/',
-    initials: 'WB',
+    image: wonder,
     email: 'wonder.bediako@ug.edu.gh'
   },
   {
@@ -46,7 +48,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     email: 'isaac.jim@ug.edu.gh'
   },
   {
-    name: 'Bismark Bakomora',
+    name: 'Bismark Zebill Bakomora',
     role: 'Partnerships Lead',
     bio: 'Developing strategic collaborations with industry giants and academia.',
     linkedin: 'https://www.linkedin.com/in/bismark-bakomora/',
@@ -58,7 +60,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: 'Project Coordinator',
     bio: 'Coordinating data science projects and ensuring timely delivery of outcomes.',
     linkedin: 'https://www.linkedin.com/in/david-ampofo-quarcoo/',
-    initials: 'DQ',
+    image: david,
     email: 'david.quarcoo@ug.edu.gh'
   }
 ];

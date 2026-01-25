@@ -53,7 +53,7 @@ const ContactPage: React.FC = () => {
                 <div>
                   <div className="font-bold text-slate-900 mb-1">Official Email</div>
                   <a href="mailto:ugass.dsw@ug.edu.gh" className="text-slate-500 hover:text-ugass-gold transition-colors">
-                    ugass.dsw@ug.edu.gh
+                    ugassdatascienceclub@gmail.com
                   </a>
                 </div>
               </div>
@@ -76,14 +76,23 @@ const ContactPage: React.FC = () => {
             <div className="mt-12">
               <h3 className="font-bold text-slate-900 mb-4">Follow Us</h3>
               <div className="flex space-x-4">
-                <a href="#" className="w-12 h-12 rounded-full flex items-center justify-center text-white hover:opacity-80 transition-opacity bg-ugass-green">
+                <a href="https://www.linkedin.com/company/ugass-data-science-club" className="w-12 h-12 rounded-full flex items-center justify-center text-white hover:opacity-80 transition-opacity bg-ugass-green">
                   <Linkedin size={20} />
                 </a>
-                <a href="#" className="w-12 h-12 rounded-full flex items-center justify-center text-white hover:opacity-80 transition-opacity bg-red-600">
-                  <Youtube size={20} />
-                </a>
-                <a href="#" className="w-12 h-12 rounded-full flex items-center justify-center text-white hover:opacity-80 transition-opacity bg-gray-800">
-                  <Github size={20} />
+                <a
+                    href="https://t.me/ugassdsc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:text-blue-400 transition-colors"
+                    aria-label="Telegram"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 240 240"
+                    className="w-12 h-12 fill-current"
+                  >
+                    <path d="M120 0C53.7 0 0 53.7 0 120s53.7 120 120 120 120-53.7 120-120S186.3 0 120 0zm58.6 82.2-18.9 88.9c-1.4 6.3-5.1 7.8-10.3 4.9l-28.5-21-13.7 13.2c-1.5 1.5-2.8 2.8-5.7 2.8l2-29.1 52.9-47.8c2.3-2-0.5-3.1-3.6-1.1l-65.4 41.2-28.2-8.8c-6.1-1.9-6.2-6.1 1.3-9l110.2-42.5c5.1-1.9 9.6 1.2 7.9 9.4z"/>
+                  </svg>
                 </a>
               </div>
             </div>
@@ -92,7 +101,7 @@ const ContactPage: React.FC = () => {
               <div className="absolute inset-0 flex items-center justify-center bg-slate-300">
                 <MapPin size={48} className="text-ugass-green animate-bounce" />
                 <div className="absolute bottom-4 bg-white/90 px-4 py-2 rounded-lg text-xs font-bold text-slate-800 shadow-sm">
-                  University of Ghana, Legon
+                  Department of Statistics & Actuarial Science, University of Ghana, Legon. 
                 </div>
               </div>
             </div>
@@ -107,7 +116,7 @@ const ContactPage: React.FC = () => {
                   type="text"
                   name="name"
                   required
-                  placeholder="John Doe"
+                  placeholder="Kwame Frimpong"
                   className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-ugass-gold transition-all"
                   value={formData.name}
                   onChange={handleChange}
@@ -120,7 +129,7 @@ const ContactPage: React.FC = () => {
                   type="email"
                   name="email"
                   required
-                  placeholder="john@example.com"
+                  placeholder="kwame@example.com"
                   className="w-full bg-slate-50 border border-slate-200 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-ugass-gold transition-all"
                   value={formData.email}
                   onChange={handleChange}

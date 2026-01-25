@@ -1,19 +1,36 @@
 import React from 'react';
 import { Linkedin, Mail } from 'lucide-react';
 import { TEAM_MEMBERS } from '../data/constants';
+import teambg from '../assets/team/team.jpg';
 
 const TeamPage: React.FC = () => {
   return (
-    <div className="animate-in fade-in py-24 bg-slate-50 min-h-screen">
+    <div className="animate-in fade-in bg-slate-50 min-h-screen">
       <div className="max-w-7xl mx-auto px-4">
-        <div className="text-center mb-20">
-          <h1 className="text-4xl font-bold mb-4">Meet the Leadership</h1>
-          <p className="text-slate-500">
-            The visionaries steering the UGASS Data Science Club.
-          </p>
-        </div>
+        {/* Hero Section */}
+        <section
+          className="relative h-[70vh] flex items-center mb-10 justify-center"
+          style={{
+            backgroundImage: `url(${teambg})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center'
+          }}
+        >
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-slate-900/70"></div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Content */}
+          <div className="relative z-10 text-center px-4">
+            <h1 className="text-4xl md:text-6xl font-extrabold text-white mb-6 tracking-tight">
+              Meet the Leadership
+            </h1>
+            <p className="text-slate-300 max-w-xl mx-auto text-lg">
+              The visionaries steering the UGASS Data Science Club.
+            </p>
+          </div>
+        </section>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
           {TEAM_MEMBERS.map((member, idx) => (
             <div
               key={idx}
