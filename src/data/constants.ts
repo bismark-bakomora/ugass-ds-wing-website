@@ -101,12 +101,12 @@ export const PROGRAMS: Program[] = [
 export const EVENTS: Event[] = [
   {
     title: 'Machine Learning Bootcamp',
-    date: 'June 12, 2025',
-    time: '9:00 AM - 5:00 PM',
-    location: 'UGASS Computer Lab',
-    description: 'Intensive 3-day bootcamp covering everything from Exploratory Data Analysis to advanced Predictive Modeling.',
+    date: 'January 28, 2026',
+    time: '8:00 PM - 9:00 PM',
+    location: 'Online via Teams',
+    description: 'Intensive 6-weeks bootcamp covering everything from Exploratory Data Analysis to advanced Predictive Modeling.',
     status: 'upcoming',
-    targetDate: '2025-06-12T09:00:00',
+    targetDate: '2026-01-28T20:00:00',
     type: 'Workshop',
     color: 'bg-green-700'
   },

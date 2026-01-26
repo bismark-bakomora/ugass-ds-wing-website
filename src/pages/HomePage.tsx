@@ -70,9 +70,9 @@ const HomePage: React.FC = () => {
       <section className="bg-white py-12 border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
-            { Icon: Users, label: 'Active Members', value: '500+' },
-            { Icon: BookOpen, label: 'Workshops', value: '10+' },
-            { Icon: Award, label: 'Partners', value: '5+' },
+            { Icon: Users, label: 'Active Members', value: '200+' },
+            { Icon: BookOpen, label: 'Hands-On Workshops', value: '10+' },
+            { Icon: Award, label: 'Academic & Industry Partners', value: '2+' },
             { Icon: Calendar, label: 'Major Events', value: '4' }
           ].map((stat, idx) => (
             <div key={idx} className="text-center flex flex-col items-center">
@@ -95,23 +95,23 @@ const HomePage: React.FC = () => {
           <div className="md:w-1/2">
             <div className="flex items-center gap-2 mb-4 text-ugass-gold">
               <Calendar size={18} />
-              <span className="font-semibold tracking-wide">June 12, 2025</span>
+              <span className="font-semibold tracking-wide">Feb 7th, 2026 - Mar 14th, 2026</span>
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-6">Machine Learning <br/>Bootcamp 2025</h2>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6">Machine Learning <br/>Bootcamp 2026</h2>
             <p className="text-slate-400 mb-8 max-w-md">
-              Join our intensive 3-day bootcamp covering everything from Exploratory Data Analysis to advanced Predictive Modeling.
+              Join our intensive 6-weeks bootcamp covering everything from Exploratory Data Analysis to advanced Predictive Modeling.
             </p>
-            <Link 
-              to="/events" 
+            <a
+              href="https://forms.gle/DihfUAtBkz9wxHQo6"
               className="inline-block bg-ugass-green text-white px-10 py-4 rounded-xl font-bold hover:bg-green-800 transition-all"
             >
               Register Now
-            </Link>
+            </a>
           </div>
           <div className="md:w-1/2 flex justify-center">
             <div className="text-center">
               <div className="mb-4 text-slate-500 text-sm font-semibold uppercase tracking-widest">Time Remaining</div>
-              <CountdownTimer targetDate="2025-06-12T09:00:00" />
+              <CountdownTimer targetDate="2026-01-28T20:00:00" />
             </div>
           </div>
         </div>
