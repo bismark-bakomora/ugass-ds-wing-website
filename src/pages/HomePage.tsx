@@ -50,7 +50,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <div className="bg-slate-800 rounded-2xl h-40 col-span-2 flex items-center justify-between p-6">
                     <div>
-                      <div className="text-white font-black text-2xl">UG & Zindi Machine Learning Fundamentals Bootcamp</div>
+                      <div className="text-white font-black text-2xl">UG & Zindi Machine Learning Bootcamp</div>
                       <div className="text-slate-400 text-sm italic underline decoration-ugass-gold">Starting January 28, 2026</div>
                     </div>
                     <div className="hidden sm:block">
